@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
   const taskForm = document.getElementById("create-task-form");
   const taskList = document.getElementById("tasks");
 
@@ -17,23 +16,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Create a delete button
       const deleteButton = document.createElement("button");
-      deleteButton.textContent = "X";
+      deleteButton.textContent = "x";
       deleteButton.style.marginLeft = "10px";
 
       // Append delete button to the task item
       taskItem.appendChild(deleteButton);
 
-      // Add task item to the task list
-      taskList.appendChild(taskItem);
+//       // Add task item to the task list
+//       taskList.appendChild(taskItem);
 
-      // Add event listener to delete the task when button is clicked
-      deleteButton.addEventListener("click", () => {
-        taskList.removeChild(taskItem);
-      });
+//       // Add event listener to delete the task when button is clicked
+//       deleteButton.addEventListener("click", () => {
+//         taskList.removeChild(taskItem);
+//       });
 
-      // Clear the input field after adding the task
-      taskInput.value = "";
-    }
-  });
-});
-
+//       // Clear the input field after adding the task
+//       taskInput.value = "";
+//     }
+//   });
+// });
