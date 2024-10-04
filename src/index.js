@@ -22,12 +22,12 @@ document.addEventListener("DOMContentLoaded", () => {
       // Append delete button to the task item
       taskItem.appendChild(deleteButton);
 
-//       // Add task item to the task list
-//       taskList.appendChild(taskItem);
+      // Add task item to the task list
+      taskList.appendChild(taskItem);
 
-//       // Add event listener to delete the task when button is clicked
-//       deleteButton.addEventListener("click", () => {
-//         taskList.removeChild(taskItem);
+      // Add event listener to delete the task when button is clicked
+      deleteButton.addEventListener("click", () => {
+        taskList.removeChild(taskItem);
 //       });
 
 //       // Clear the input field after adding the task
